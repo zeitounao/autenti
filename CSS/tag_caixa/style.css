@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+}
+.box {
+    height: 3000px;
+    width:  4000px;
+    background-image: url(../../HTML/exercicio_telas/imagem1.jfif);
+    background-repeat: no-repeat;
+}
+
+.ac_box { 
+    width: 337px; 
+}
+.ac_box_top { 
+    border: 2px solid #E6E6E6; 
+    border-bottom: none; 
+    margin-left: 2px; 
+    height: 7px; 
+    width: 323px;
+    background-color: #a72f2f; 
+}
+.ac_box_cont { 
+    border-left: 4px solid #a72f2f; 
+    border-right: 10px solid #20973e; 
+    border-bottom: 10px solid #17beb6; 
+    height: 340px; 
+    padding: 5px 0; 
+    background-color: azure;
+}

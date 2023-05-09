@@ -1,0 +1,21 @@
+
+
+.box4{
+    background-color: rebeccapurple;
+    position: absolute;
+    right:30px;
+    top: 20px;
+}
+
+.box5{
+    background-color: rgb(236, 66, 14);
+    position: fixed;
+    top: 30px;
+}
+
+.box6{
+    background-color: aquamarine;
+    position: absolute;
+    bottom:10px;
+    
+}

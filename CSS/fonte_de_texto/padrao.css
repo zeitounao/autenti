@@ -1,0 +1,16 @@
+p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+
+    font-family: 'Bungee Shade', cursive, serif;
+}
+
+p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+    font-size:1.3rem;
+}
+/*1 rem é o tamanho padrao do chrome que correspondem a 16px*/

@@ -1,0 +1,41 @@
+
+body{
+    height:100vh;
+    margin:0;
+
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 1fr 80px;
+}
+
+
+header{
+    background-color: aqua;
+    grid-area: header;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+
+
+main{
+    background-color: blueviolet;
+    grid-area: main;
+}
+
+aside{
+    background-color: bisque;
+    grid-area: aside;
+}
+
+footer{
+    background-color: brown;
+    grid-area:footer;
+}

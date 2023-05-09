@@ -1,0 +1,22 @@
+
+
+.container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+
+    background-color: antiquewhite;
+    border: 1px solid red;
+    
+}
+
+
+img {
+
+    width: 20%;
+    height: auto;
+    
+    border: 1px solid yellowgreen;
+}

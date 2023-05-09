@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+
+    <style>
+        body{
+            background-image: url(imagem.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color: aliceblue ;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="" id="eliezer_formulario" onsubmit= handleSubmit(event)>
+        <fieldset>
+            <legend>informações para contato</legend>
+            <div>
+                <label for="nome1">Digite seu nome: </label>
+                <input type="text" name="nome" id="nome1" placeholder="nao tenha medo"  ondblclick=getValue()>
+            </div>
+            <br>
+            <div>
+                <label for="email1">Digite seu Email: </label>
+                <input type="email" placeholder="digite aqui em cima" required multiple pattern=".+@gmail\.com" name="email" id="email1" class="troca_texto" ondblclick= getText()>
+            </div>
+            <br>
+            <div>
+                <label for="textarea">digite sua mensagem e/ou opiniao aqui: </label>
+                </br>
+                <textarea name="textarea" id="textarea" cols="40" rows="10" maxlength="500" placeholder="area para digitar sua opinião, experiencia e feedback fique a vontade" ></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="confirmacao">quer mesmo enviar ?</label>
+                <input type="checkbox" id="confirmacao" required>
+            </div>
+            <br>
+            <div>
+                <button type="submit" id="enviar">enviar</button>
+                <button type="reset">limpar </button>
+                
+            </div>
+            
+        </fieldset>
+    </form>
+    
+</body>
+<script src="./formulario1.js"></script>
+</html>

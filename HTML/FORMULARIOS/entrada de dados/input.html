@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sou incrivel</title>
+</head>
+<body>
+
+    <datalist id="lista_cor">
+        <option>#ff0000</option>
+        <option>#00ff00</option>
+        <option>#0000ff</option>
+    </datalist>
+    
+    <form action="">
+        <input type="number" placeholder="escolha um numero">
+        <br>
+        <input type="week">
+        <br>
+        <input type="month">
+        <br>
+        <input type="date">
+        <br>
+        <input type="datetime-local">
+        <br>
+        <input type="password" placeholder="escolha senha" minlength="4" maxlength="10"     size="8"  required>
+        <br>
+        <input type="file"> 
+        </br>
+        <label>Nome: </label>
+        <input type="text" name="nome" id="nome" 
+            value="digite seu nome" > 
+        <br>
+        <label>email: </label>
+        <input type="email" placeholder="digite seu email" pattern=".+@gmail\.com">
+        <br>
+        <input type="color" list="lista_cor" value="#00ffff">
+        <br>
+        <button type="submit">enviar</button>
+        <button type="reset">apagar</button>
+
+        </form>
+
+</body>
+</html>

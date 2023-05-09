@@ -1,0 +1,13 @@
+p{
+    /*
+    font-variant: small-caps;
+    letter-spacing: 4px;
+    word-spacing: 1em;
+    line-height: 1.6;
+    text-transform: capitalize;
+
+    text-decoration: overline underline line-through wavy rgb(40, 168, 8);
+    text-align: center;
+    */
+    text-shadow: 1px 1px 1px red;
+}

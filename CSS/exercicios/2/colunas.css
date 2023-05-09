@@ -1,0 +1,31 @@
+
+
+
+* {
+    margin: 0;
+}
+
+.container {
+    display:flex;
+    
+    background-color: aliceblue;
+    gap: 1rem;
+    border: 5px solid red;
+}
+
+aside, main {
+    display: flex;
+    height: 95vh;
+}
+
+aside {
+    background-color: aquamarine;
+    flex-grow: 1; /*metodo alternativo flex-basis: 25%; */
+    
+}
+
+main {
+    background-color: rgb(204, 189, 189);
+    flex-grow: 3; /*metodo alternativo flex: 1; */
+
+}

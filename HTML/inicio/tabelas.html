@@ -1,0 +1,64 @@
+<!--tabela simples
+<table>
+    <tr>
+        <th>nome</th>
+        <th>idade</th>
+    </tr>
+    <tr>
+        <td>eliezer</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>jaco</td>
+        <td>25</td>
+    </tr>
+</table> -->
+
+<table>
+    <caption>produzidos x vendidos por loja</caption>
+    
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: red">
+        <col span="2" style="background-color: blue;">
+    </colgroup>
+    
+    <thead>  <!--usa para deixar a parte de cima da tabela
+                organizada usa-se th para fazer o indice 
+                ficar em negrito-->
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup" style="background-color: rgb(90, 194, 98);">afonso pena</th>
+            <th colspan="2" scope="colgroup" style="background-color: blueviolet;">antonio pereira</th>
+        </tr>
+        <tr>
+            <th scope="col">produzido</th>
+            <th scope="col">vendido</th>
+            <th scope="col">produzido</th>
+            <th scope="col">vendido</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        <tr>
+            <th scope="row">vassouras</th>
+            <td>50</td>
+            <td>30</td>
+            <td>20</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <th scope="row">baldes</th>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>25 </td>
+        </tr>
+    </tbody>
+        
+
+</table>
+
+
+
+

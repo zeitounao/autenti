@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+.container {
+
+    display:flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 6%;
+    align-items: center;
+}
+
+.logo {
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 5rem;
+    
+    align-items: center;
+}
+
+.menu p:last-child {
+    background-color: black;
+    color: white;
+    padding: .8rem;
+}

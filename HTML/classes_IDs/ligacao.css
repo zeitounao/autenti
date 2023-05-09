@@ -1,0 +1,28 @@
+
+
+h1{
+    color: aquamarine;
+    font-size: 60px;
+}
+
+#content{
+    color: blueviolet;
+    font-size: 40px;
+}
+
+.red{
+    color: red;
+}
+
+.big{
+    font-size: 80px;
+}
+
+[title]{
+    color: rgb(9, 230, 174);
+}
+
+p:hover, h1:hover{
+    color: brown;
+}
+

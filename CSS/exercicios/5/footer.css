@@ -1,0 +1,15 @@
+
+body {
+    min-height: 100vh;
+    display: flex;
+}
+
+footer {
+    background-color: aquamarine;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+    margin-top: auto;
+    flex: 1;
+}

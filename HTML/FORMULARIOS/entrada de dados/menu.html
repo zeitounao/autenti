@@ -1,0 +1,48 @@
+
+<label for="escolha_carro">escolha um carro</label>
+<select name="carro_modelo" id="escolha_carro"  size="1">
+    <option value="">aperte aqui para escolher</option>
+    <option value="carro_fiat">Uno</option>
+    <option value="carro_audi">A3</option>
+    <option value="carro_bmw">X6</option>
+</select>
+<br>
+<select name="pets" multiple size="4">
+    <optgroup label="animais com 4 patas">
+        <option value="gato">gato</option>
+        <option value="cachorro">cachorro</option>
+        <option value="rato">rato</option>
+    </optgroup>
+    <optgroup label="animais voadores" id="lista_voadores">
+        <option value="tucano">tucano</option>
+        <option value="canario">canario</option>
+        <option value="calopsita">calopsita</option>
+    </optgroup>
+</select>
+<br>
+
+<datalist id="lista_de_procura">
+    <option>mac</option>
+    <option>win</option>
+    <option>linux</option>
+</datalist>
+
+<form action="">
+    <label for="procurar nome">procurar nome</label>
+    <input type="search" name="procurar" list="lista_de_procura">
+    <button>pesquisar</button>
+</form>
+
+<form action="">
+    <label for="procurar id">procurar id</label>
+    <input type="search" name="id" size="10" pattern="[0-9]{4}" 
+    title="digite 4 numeros de 0 ate 9" >
+    <button>pesquisar</button>
+</form>
+
+<form action="">
+    <input type="number" min="20" max="1200" step="10">
+    <button>enviar</button>
+</form>
+
+<input type="range" min="0" max="100" step="5">

@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    border: 7px dashed red;
+    background-color: rgb(55, 100, 50);
+
+    background: linear-gradient(45deg, white, green,yellow, blue);
+}
