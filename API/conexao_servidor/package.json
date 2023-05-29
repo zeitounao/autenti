@@ -1,0 +1,10 @@
+{
+  "name": "api_json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Eliezer zeitoune",
+  "license": "ISC"
+}

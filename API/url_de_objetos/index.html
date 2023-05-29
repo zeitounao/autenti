@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: rgb(189, 236, 236);
+            align-items: center;
+        }
+        #viewer {
+            width: 860px;
+            height: 408px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <iframe id="viewer" src="http://dev-institucional.focustextil.loc.br/catalogo/files/pdf/criterios-de-qualidade/qualidade-spain.pdf" ></iframe>
+    <!--podemos usar ao inez do link, um arquivo src="file.pdf" -->
+
+    <script>
+        const obj_url = URL.createObjectURL(blob);
+        const iframe = document.getElementById("viewer");
+        iframe.setAttribute("src", obj_url);
+        URL.revokeObjectURL(obj_url);
+
+    </script>
+
+</body>
+</html>
